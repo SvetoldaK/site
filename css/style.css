@@ -28,8 +28,13 @@ body {
     width: 100%;
     max-width: 973.61px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15px 0 15px;
     background-color: #FFFFFF;
+}
+
+.menu {
+    border-bottom: 1px solid #828282;
+    padding-bottom: 32px;
 }
 
 .nav {
@@ -45,12 +50,11 @@ body {
     color: #828282;
 }
 
-.line {
-    border-bottom: 1px solid #828282;
-    padding-bottom: 32px;
+.info {
+    max-height: 680px;
 }
 
-.info {
+.info__me {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
