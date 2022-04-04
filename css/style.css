@@ -201,23 +201,29 @@ span {
     padding-bottom: 28px;
 }
 
-.button-cleek {
+.contacts__button {
     display: flex;
-    border-radius: 22px;
-    background-color: black;
-    color: #FFFFFF;
     align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    height: 42px;
-    width: 180px;
 }
 
 .button-email {
+    border-radius: 22px;
+    background-color: black;
+    color: #FFFFFF;
+    height: 42px;
+    width: 180px;
+
+    margin: 0 auto;
+}
+
+.button-cleek {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
 }
 
 .icons {
