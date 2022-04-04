@@ -180,3 +180,73 @@ span {
     transition: 3s;
     transform: scale(1.1);
 }
+
+.contacts {
+    height: 622px;
+}
+
+.contacts__title {
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    font-weight: bold;
+    padding-top: 114px;
+    padding-bottom: 20px;
+}
+
+.contacts__subtitle {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 28px;
+}
+
+.button-cleek {
+    display: flex;
+    border-radius: 22px;
+    background-color: black;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    height: 42px;
+    width: 180px;
+}
+
+.button-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 85px;
+    width: 342px;
+    margin: auto;
+}
+
+.connection {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-size: 14px;
+    color: #828282;
+    padding-top: 46px;
+}
+
+.element {
+    display: flex;
+}
+
+a.element {
+    filter: grayscale(100);
+    transition: filter 0.3s;
+}
+
+a.element:hover {
+    filter: none;
+}
