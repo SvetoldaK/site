@@ -114,3 +114,43 @@ span {
     height: 218px;
 }  
 
+.skills {
+    height: 610px;
+}
+
+.skills__title {
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    font-weight: bold;
+    padding-top: 91px;
+    padding-bottom: 69px;
+}
+
+.skills__subtitle {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skill-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 83px;
+    padding-bottom: 111px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #828282;
+}
+
+.skill__name {
+    padding-top: 21px;
+}
+
+.container__star {
+    padding-top: 40px;
+}
+
