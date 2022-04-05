@@ -102,23 +102,23 @@ a.element:hover {
 
 .intro__menu {
     display: none;
-  
+
     position: absolute;
     top: 80px;
     right: 0;
     z-index: 1;
-  }
-  
-  .menu__btn {
+}
+
+.menu__btn {
     padding: 4px 0;
     width: 33px;
-  
+
     position: relative;
     z-index: 50;
-  }
-  
-  .menu__item::before,
-  .menu__item::after {
+}
+
+.menu__item::before,
+.menu__item::after {
     content: " ";
     height: 4px;
     width: 100%;
@@ -126,27 +126,27 @@ a.element:hover {
     position: absolute;
     left: 0;
     z-index: 1;
-  }
-  
-  .menu__item span {
+}
+
+.menu__item span {
     display: block;
     background: #000000;
     height: 4px;
-  }
-  
-  .menu__item::after {
+}
+
+.menu__item::after {
     top: -4px;
-  }
-  
-  .menu__item::before {
+}
+
+.menu__item::before {
     bottom: -4px;
-  }
-  
-  .intro__avatar {
+}
+
+.intro__avatar {
     width: 100%;
     max-width: 944px;
     padding: 50px 0 104px 0;
-  }
+}
 
 .about__me {
     background-color: #F6F6F6;
@@ -359,16 +359,16 @@ a.element:hover {
     /*about me*/
     .about__me {
         background-color: #F6F6F6;
-        height: 491px;
+        height: 506px;
     }
-
+    
     .content__title {
         display: flex;
         justify-content: center;
         font-size: 34px;
         font-weight: bold;
-        padding-top: 91px;
-        padding-bottom: 30px;
+        padding-top: 120px;
+        padding-bottom: 50px;
     }
     
     .content__text {
@@ -376,7 +376,7 @@ a.element:hover {
         text-align: center;
         flex-direction: column;
         justify-content: space-between;
-        height: 261px;
+        height: 218px;
     }  
 
     /*skills*/
@@ -490,7 +490,7 @@ a.element:hover {
         background-color: black;
         color: #FFFFFF;
         height: 42px;
-        width: 180px;
+        width: 316px;
     
         margin: 0 auto;
     }
@@ -539,5 +539,22 @@ a.element:hover {
         display: initial;
         right: 30px;
     }
+
+    .content__title__mobile {
+        display: flex;
+        justify-content: center;
+        font-size: 34px;
+        font-weight: bold;
+        padding-top: 120px;
+        padding-bottom: 50px;
+    }
+    
+    .content__text__mobile {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 218px;
+    }  
       
 }
