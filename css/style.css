@@ -312,7 +312,8 @@ a.element {
 a.element:hover {
     filter: none;
 }
-@media (max-width: 375px) {
+
+@media (max-width: 430px) {
     .header {
         display: none;
     }
@@ -320,6 +321,13 @@ a.element:hover {
     /*info*/
     .info {
         height: 836px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 430px;
+        margin: 0 auto;
+        padding: 0 15px 0 15px;
     }
     
     .info__me {
@@ -349,17 +357,12 @@ a.element:hover {
 
     .avatar {
         display: initial;
-        padding-left: 14px;
-    }
-
-    span {
-        color: #828282;
     }
 
     /*about me*/
     .about__me {
         background-color: #F6F6F6;
-        height: 506px;
+        height: 491px;
     }
     
     .content__title {
@@ -367,8 +370,8 @@ a.element:hover {
         justify-content: center;
         font-size: 34px;
         font-weight: bold;
-        padding-top: 120px;
-        padding-bottom: 50px;
+        padding-top: 81px;
+        padding-bottom: 23px;
     }
     
     .content__text {
@@ -376,7 +379,7 @@ a.element:hover {
         text-align: center;
         flex-direction: column;
         justify-content: space-between;
-        height: 218px;
+        height: 261px;
     }  
 
     /*skills*/
@@ -394,13 +397,6 @@ a.element:hover {
         padding-bottom: 50px;
     }
     
-    .skills__subtitle {
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    
     .skill-list {
         display: flex;
         flex-direction: column;
@@ -412,11 +408,6 @@ a.element:hover {
         font-weight: bold;
         color: #828282;
     }
-
-    
-    .skill__name {
-        padding-top: 21px;
-    }
     
     .container__star {
         padding-top: 40px;
@@ -427,7 +418,7 @@ a.element:hover {
 
     .portfolio {
         background-color: #F6F6F6;
-        height: 1118px;
+        height: 1218px;
     }
     
     .portfolio__title {
@@ -438,11 +429,9 @@ a.element:hover {
         padding-top: 81px;
         padding-bottom: 64px;
     }
-    
+
     .screenshot {
-        height: 171px;
-        width: 316px;
-        padding-left: 29px;
+        width: 380px;
     }
 
     .project__link {
@@ -480,11 +469,6 @@ a.element:hover {
         padding-bottom: 39px;
     }
     
-    .contacts__button {
-        display: flex;
-        align-items: center;
-    }
-    
     .button-email {
         border-radius: 22px;
         background-color: black;
@@ -495,21 +479,10 @@ a.element:hover {
         margin: 0 auto;
     }
     
-    .button-cleek {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-decoration: none;
-        color: #FFFFFF;
-        font-weight: bold;
-    }
-    
     .icons {
         display: flex;
         justify-content: space-between;
         padding-top: 48px;
-        width: 315px;
         margin: 0;
     }
     
@@ -522,39 +495,8 @@ a.element:hover {
         padding-top: 48px;
     }
     
-    .element {
-        display: flex;
-    }
-    
-    a.element {
-        filter: grayscale(100);
-        transition: filter 0.3s;
-    }
-    
-    a.element:hover {
-        filter: none;
-    }
-    
     .intro__menu {
         display: initial;
         right: 30px;
     }
-
-    .content__title__mobile {
-        display: flex;
-        justify-content: center;
-        font-size: 34px;
-        font-weight: bold;
-        padding-top: 120px;
-        padding-bottom: 50px;
-    }
-    
-    .content__text__mobile {
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 218px;
-    }  
-      
 }
