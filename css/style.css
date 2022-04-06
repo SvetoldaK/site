@@ -268,8 +268,8 @@ a.element:hover {
     color: #FFFFFF;
     height: 42px;
     width: 180px;
-
     margin: 0 auto;
+    border: none;
 }
 
 .button-cleek {
@@ -328,6 +328,8 @@ a.element:hover {
         max-width: 430px;
         margin: 0 auto;
         padding: 0 15px 0 15px;
+        display: flex;
+        flex-direction: column;
     }
     
     .info__me {
@@ -356,7 +358,8 @@ a.element:hover {
     }
 
     .avatar {
-        display: initial;
+        display: flex;
+        flex-direction: column;
     }
 
     /*about me*/
