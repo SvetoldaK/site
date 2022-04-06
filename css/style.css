@@ -149,8 +149,17 @@ a.element:hover {
 }
 
 .about__me {
-    background-color: #F6F6F6;
     height: 506px;
+    background: linear-gradient(180deg, pink 0%, rgba(249, 202, 238, 0) 100%);
+    background-color: #F6F6F6;
+    background-size: 100% 0.00001%;
+    background-repeat: no-repeat;
+    transition: all 1s linear;
+}
+
+.about__me:hover {
+    background-size:100% 100%;
+    transition: all 1s linear;
 }
 
 .content__title {
