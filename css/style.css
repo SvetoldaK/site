@@ -150,7 +150,7 @@ a.element:hover {
 
 .about__me {
     background-color: #F6F6F6;
-    height: 606px;
+    height: 506px;
 }
 
 .content__title {
@@ -168,7 +168,7 @@ a.element:hover {
     flex-direction: column;
     justify-content: space-between;
     height: 218px;
-}  
+}
 
 .skills {
     height: 610px;
@@ -212,7 +212,6 @@ a.element:hover {
 
 .portfolio {
     background-color: #F6F6F6;
-    height: 2253px;
 }
 
 .portfolio__title {
@@ -287,7 +286,7 @@ a.element:hover {
     align-items: center;
     justify-content: space-between;
     padding-top: 85px;
-
+    max-width: 303px;
     margin: auto;
 }
 
@@ -330,25 +329,19 @@ a.element:hover {
     }
 
     .container {
-        width: 100%;
         max-width: 430px;
-        margin: 0 auto;
-        padding: 0 15px 0 15px;
         display: flex;
         flex-direction: column;
     }
     
     .info__me {
-        display: flex;
         flex-direction: column;
         align-items: flex-start;
         padding-bottom: 65px;
     }
     
     .name {
-        font-weight: bold;
-        font-size: 47px;
-        transform: translateY(10px);
+        padding-top: 0;
     }
     
     .description {
@@ -370,24 +363,15 @@ a.element:hover {
 
     /*about me*/
     .about__me {
-        background-color: #F6F6F6;
         height: 491px;
     }
     
     .content__title {
-        display: flex;
-        justify-content: center;
-        font-size: 34px;
-        font-weight: bold;
         padding-top: 81px;
         padding-bottom: 23px;
     }
     
     .content__text {
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        justify-content: space-between;
         height: 261px;
     }  
 
@@ -398,63 +382,40 @@ a.element:hover {
     }
     
     .skills__title {
-        display: flex;
-        justify-content: center;
-        font-size: 34px;
-        font-weight: bold;
         padding-top: 83px;
         padding-bottom: 50px;
     }
     
     .skill-list {
-        display: flex;
         flex-direction: column;
-        justify-content: space-between;
         text-align: center;
         padding-top: 71px;
         padding-bottom: 98px;
         font-size: 14px;
-        font-weight: bold;
-        color: #828282;
     }
     
     .container__star {
-        padding-top: 40px;
         padding-bottom: 81px;
     }
 
     /*portfolio*/
 
     .portfolio {
-        background-color: #F6F6F6;
         height: 1218px;
     }
     
     .portfolio__title {
-        display: flex;
-        justify-content: center;
-        font-size: 34px;
-        font-weight: bold;
         padding-top: 81px;
         padding-bottom: 64px;
     }
 
     .screenshot {
         width: 100%;
-        max-width: ;
     }
 
     .project__link {
-        display: flex;
-        justify-content: center;
-        color: #000000;
         padding-top: 33px;
         padding-bottom: 78px;
-    }
-    
-    .screenshot:hover {
-        transition: 3s;
-        transform: scale(1.1);
     }
 
     /*contacts*/
@@ -464,50 +425,55 @@ a.element:hover {
     }
     
     .contacts__title {
-        display: flex;
-        justify-content: center;
-        font-size: 34px;
-        font-weight: bold;
         padding-top: 82px;
         padding-bottom: 27px;
     }
     
     .contacts__subtitle {
-        display: flex;
-        text-align: center;
-        flex-direction: column;
         padding-bottom: 39px;
     }
     
     .button-email {
-        border-radius: 22px;
-        background-color: black;
-        color: #FFFFFF;
-        height: 42px;
         width: 316px;
-    
-        margin: 0 auto;
     }
     
     .icons {
-        display: flex;
-        justify-content: center;
-        justify-content: space-between;
+        max-width: 430px;
         padding-top: 48px;
         margin: 0;
     }
     
     .connection {
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        font-size: 14px;
-        color: #828282;
-        padding-top: 48px;
+        font-size: 18px;
     }
     
     .intro__menu {
         display: initial;
         right: 30px;
+    }
+}
+@media (max-width: 950px) {
+    .container {
+        max-width: 950px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .screenshot {
+        width: 100%;
+    }
+
+    .portfolio {
+        background-color: #F6F6F6;
+    }
+
+    .button-email {
+        width: 316px;
+    }
+    
+    .icons {
+        max-width: 350px;
+        width: 100%;
+        margin: auto;
     }
 }
