@@ -12,8 +12,8 @@ li {
 }
 
 *,
-*::before,
-*::after {
+*:before,
+*:after {
     font-family: 'Gilroy';
     box-sizing: border-box;
 }
@@ -150,7 +150,7 @@ a.element:hover {
 
 .about__me {
     background-color: #F6F6F6;
-    height: 506px;
+    height: 606px;
 }
 
 .content__title {
@@ -287,7 +287,7 @@ a.element:hover {
     align-items: center;
     justify-content: space-between;
     padding-top: 85px;
-    width: 342px;
+
     margin: auto;
 }
 
@@ -318,9 +318,15 @@ a.element:hover {
         display: none;
     }
 
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px 0 15px;
+    }
+
     /*info*/
     .info {
-        height: 836px;
+        height: 913px;
     }
 
     .container {
@@ -434,7 +440,8 @@ a.element:hover {
     }
 
     .screenshot {
-        width: 380px;
+        width: 100%;
+        max-width: ;
     }
 
     .project__link {
@@ -484,6 +491,7 @@ a.element:hover {
     
     .icons {
         display: flex;
+        justify-content: center;
         justify-content: space-between;
         padding-top: 48px;
         margin: 0;
