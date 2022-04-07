@@ -28,10 +28,7 @@ body {
 .header {
     font-weight: bold;
     position: sticky;
-    left: 0;
-    top: 0;
     z-index: 999;
-    background: #FFFFFF;
 }
 
 .container {
@@ -41,10 +38,10 @@ body {
     padding: 0 15px 0 15px;
 }
 
+/*stick*/
 .menu {
     border-bottom: 1px solid #828282;
     padding-bottom: 32px;
-    background-color: #FFFFFF;
 }
 
 .nav {
@@ -88,7 +85,7 @@ body {
     transform: rotate(270deg) translateX(25px) translateY(26px);
 }
 
-.avatar {
+.photo__mobile {
     display: none;
 }
 
@@ -102,7 +99,6 @@ a.element:hover {
 
 .intro__menu {
     display: none;
-
     position: absolute;
     top: 80px;
     right: 0;
@@ -112,7 +108,6 @@ a.element:hover {
 .menu__btn {
     padding: 4px 0;
     width: 33px;
-
     position: relative;
     z-index: 50;
 }
@@ -307,7 +302,7 @@ a.element:hover {
     margin: auto;
 }
 
-.connection {
+.connection__name {
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -373,7 +368,7 @@ a.element:hover {
         display: none;
     }
 
-    .avatar {
+    .photo__mobile {
         display: flex;
         flex-direction: column;
     }
@@ -460,7 +455,7 @@ a.element:hover {
         margin: 0;
     }
     
-    .connection {
+    .connection__name {
         font-size: 18px;
     }
     
@@ -469,6 +464,7 @@ a.element:hover {
         right: 30px;
     }
 }
+
 @media (max-width: 950px) {
     .container {
         max-width: 950px;
