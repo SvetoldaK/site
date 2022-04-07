@@ -219,6 +219,14 @@ a.element:hover {
     padding-top: 40px;
 }
 
+@keyframes moving {
+    100% {transform: rotateY(360deg);}
+}
+
+.star {
+    animation: moving 2s infinite;
+}
+
 .portfolio {
     background-color: #F6F6F6;
 }
