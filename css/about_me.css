@@ -1,15 +1,5 @@
 .about_me {
-    height: 506px;
     background-color: #F6F6F6;
-}
-
-.content_title {
-    display: flex;
-    justify-content: center;
-    font-size: 34px;
-    font-weight: bold;
-    padding-top: 120px;
-    padding-bottom: 50px;
 }
 
 .content_text {
@@ -17,21 +7,13 @@
     text-align: center;
     flex-direction: column;
     justify-content: space-between;
-    height: 218px;
 }
 
-@media (max-width: 430px) {
-    .about_me {
-        height: 491px;
-    }
-    
-    .content_title {
-        padding-top: 81px;
-        padding-bottom: 23px;
-    }
-    
-    .content_text {
-        height: 261px;
-    } 
+.text_about_me {
+    margin-bottom: 35px;
+}
+
+.text_about_me:last-child {
+    margin-bottom: 65px;
 }
  

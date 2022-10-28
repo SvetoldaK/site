@@ -1,21 +1,12 @@
 .contacts {
-    height: 622px;
-}
-
-.contacts_title {
-    display: flex;
-    justify-content: center;
-    font-size: 34px;
-    font-weight: bold;
-    padding-top: 114px;
-    padding-bottom: 20px;
+    background-color: #F6F6F6;
 }
 
 .contacts_subtitle {
     display: flex;
     text-align: center;
     flex-direction: column;
-    padding-bottom: 28px;
+    padding-bottom: 30px;
 }
 
 .contacts_button {
@@ -27,7 +18,7 @@
     border-radius: 22px;
     background-color: black;
     color: #FFFFFF;
-    height: 42px;
+    height: 40px;
     width: 180px;
     margin: 0 auto;
     border: none;
@@ -47,8 +38,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 85px;
-    max-width: 303px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 300px;
     margin: auto;
 }
 
@@ -74,16 +66,7 @@ a.element:hover {
     filter: none;
 }
 
-@media (max-width: 430px) {
-    .contacts {
-        height: 569px;
-    }
-    
-    .contacts_title {
-        padding-top: 82px;
-        padding-bottom: 27px;
-    }
-    
+@media (max-width: 430px) {  
     .contacts_subtitle {
         padding-bottom: 39px;
     }

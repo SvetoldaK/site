@@ -7,13 +7,6 @@
     background: #FFFFFF;
 }
 
-.container {
-    width: 100%;
-    max-width: 973.61px;
-    margin: 0 auto;
-    padding: 0 15px 0 15px;
-}
-
 .menu {
     border-bottom: 1px solid #828282;
     padding-bottom: 32px;
@@ -43,14 +36,5 @@
         width: 100%;
         margin: 0 auto;
         padding: 0 15px 0 15px;
-    }
-}
-
-@media (max-width: 950px) {
-
-    .container {
-        max-width: 950px;
-        display: flex;
-        flex-direction: column;
     }
 }
