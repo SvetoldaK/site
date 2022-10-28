@@ -1,18 +1,9 @@
-.about__me {
+.about_me {
     height: 506px;
-    background: linear-gradient(180deg, pink 0%, rgba(249, 202, 238, 0) 100%);
     background-color: #F6F6F6;
-    background-size: 100% 0.00001%;
-    background-repeat: no-repeat;
-    transition: all 1s linear;
 }
 
-.about__me:hover {
-    background-size:100% 100%;
-    transition: all 1s linear;
-}
-
-.content__title {
+.content_title {
     display: flex;
     justify-content: center;
     font-size: 34px;
@@ -21,7 +12,7 @@
     padding-bottom: 50px;
 }
 
-.content__text {
+.content_text {
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -30,16 +21,16 @@
 }
 
 @media (max-width: 430px) {
-    .about__me {
+    .about_me {
         height: 491px;
     }
     
-    .content__title {
+    .content_title {
         padding-top: 81px;
         padding-bottom: 23px;
     }
     
-    .content__text {
+    .content_text {
         height: 261px;
     } 
 }

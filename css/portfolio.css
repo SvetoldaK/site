@@ -1,8 +1,17 @@
 .portfolio {
     background-color: #F6F6F6;
+    background: linear-gradient(180deg, rgba(18, 47, 100, 0.664) 0%, rgba(249, 202, 238, 0) 100%);
+    background-size: 100% 0.00001%;
+    background-repeat: no-repeat;
+    transition: all 1s linear;
 }
 
-.portfolio__title {
+.portfolio:hover {
+    background-size: 100% 100%;
+    transition: all 1s linear;
+}
+
+.portfolio_title {
     display: flex;
     justify-content: center;
     font-size: 34px;
@@ -11,12 +20,16 @@
     padding-bottom: 47px;
 }
 
-.project__link {
+.project_link {
     display: flex;
     justify-content: center;
     color: #000000;
     padding-top: 44px;
     padding-bottom: 99px;
+}
+
+.screenshot {
+    width: 100%;
 }
 
 .screenshot:hover {
@@ -29,7 +42,7 @@
         height: 1218px;
     }
     
-    .portfolio__title {
+    .portfolio_title {
         padding-top: 81px;
         padding-bottom: 64px;
     }
@@ -38,7 +51,7 @@
         width: 100%;
     }
     
-    .project__link {
+    .project_link {
         padding-top: 33px;
         padding-bottom: 78px;
     }
