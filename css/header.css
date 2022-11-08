@@ -5,10 +5,10 @@
     top: 0;
     z-index: 999;
     background: #FFFFFF;
+    border-bottom: 2px solid #423d3d;
 }
 
 .menu {
-    border-bottom: 1px solid #828282;
     padding-bottom: 32px;
     background-color: #FFFFFF;
 }
@@ -23,7 +23,7 @@
 
 .nav > li > a {
     text-decoration: none;
-    color: #828282;
+    color: #423d3d;
 }
 
 @media (max-width: 430px) {

@@ -20,6 +20,7 @@ li {
 
 body {
     color: #000000;
+    background-color: #2f4f4f;
     font-size: 18px;
     margin: 0;
     border-color: #FFFFFF;
@@ -29,7 +30,6 @@ body {
     width: 100%;
     max-width: 973.61px;
     margin: 0 auto;
-    padding: 0 15px 0 15px;
 }
 
 .title {
